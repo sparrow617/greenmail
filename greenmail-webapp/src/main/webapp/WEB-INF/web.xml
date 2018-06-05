@@ -7,11 +7,11 @@
   
   <context-param>
     <param-name>greenmail.portOffset</param-name>
-    <param-value>10000</param-value>
+    <param-value>0</param-value>
   </context-param>
   <context-param>
     <param-name>greenmail.smtp.host</param-name>
-    <param-value>127.0.0.1</param-value>
+    <param-value>0.0.0.0</param-value>
   </context-param>
   <context-param>
     <param-name>greenmail.smtp.port</param-name>
@@ -28,7 +28,7 @@
   <context-param>
     <param-name>greenmail.users</param-name>
     <param-value>
-      user1:password@localhost
+      roger:pega@marvel.com
       user2:password2@localhost
     </param-value>
   </context-param>
